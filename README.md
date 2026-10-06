@@ -19,3 +19,16 @@ und `http://localhost:8080` öffnen. Auch als statische Seite hostbar (GitHub Pa
 - Fortschritt lässt sich als Text sichern / auf anderem Gerät wiederherstellen.
 
 Die Vokabeln stehen in `vocab.js` (`Lemma|Formen|Bedeutung`, je 25 Zeilen = ein Pack) und lassen sich leicht anpassen.
+
+## PDF-Lernpaket für die Klausur (Ovid: Daedalus & Ikarus)
+
+`lernpaket.py` erzeugt eine komplette PDF-Sammlung zum Arbeiten am iPad mit Apple Pencil
+(antippbare Checkboxen, Schreiblinien, Lesezeichen):
+
+    pip install reportlab
+    python3 lernpaket.py      # -> Ordner Latein_Lernpaket/
+
+Inhalt: Übersetzungsmethode, Verben & alle Zeitformen, Kasus & Satzbau, Ovid-Wortschatz mit Tests,
+Übersetzung in 3 Stufen (vereinfacht · Original mit Hilfen · Klausurmodus), Stilmittel, Interpretation,
+Metrik, Kreuzworträtsel & Wortgitter, Probeklausur mit Bewertung, Fehlerprotokoll, Spickzettel, Lösungen
+und (aus `vocab.js`) die 500 Grundwörter als Anhang. Die fertigen PDFs liegen bereits in `Latein_Lernpaket/`.
