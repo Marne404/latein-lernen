@@ -1,0 +1,15 @@
+{
+  "name": "Latein lernen",
+  "short_name": "Latein",
+  "description": "500 Lateinvokabeln in 25er-Packs mit smarter Wiederholung",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f1e7",
+  "theme_color": "#7a1f2b",
+  "lang": "de",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
